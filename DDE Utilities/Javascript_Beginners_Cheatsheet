@@ -1,0 +1,43 @@
+//Written by James Wigglesworth
+//Started: 6_22_17
+//Updated: 6_22_17
+
+var my_variable_name = 1        		  //makes a variable you can use everywhere
+let my_variable_name = 1        		  //makes a variable you can only use in one area
+out("Hello World") 		        		  //prints "Hello World" in the Output pane
+out(my_variable_name)           		  //prints a variable's value in the Output pane
+for(var i = 0; i < 3; i++){     		  //does 'my_code' 3 times
+	//my_code
+}
+if(/*condition*/){	            		  //will only do 'my_code' if the condition is true
+	//my_code
+}
+while(/*condition*/){	                  //will repeat 'my_code' as long as the condition is true
+	//my_code
+}
+function my_function(/*input*/){          //Creates a function called my_function that will do 'my_code'
+	//my_code
+    return /*output*/
+}
+my_variable_name = my_function(/*input*/) //Sets the 'my_variable_name' to the output of the function
+my_variable_name = /*math*/				  //Sets the 'my_variable_name' to the result of the math
+
+
+//conditions:                   //Condition will either be true or false
+true							//true
+false							//false
+my_variable_name > 1			//true if my_variable_name is greater than 1
+my_variable_name < 1			//true if my_variable_name is less than 1
+my_variable_name >= 1			//true if my_variable_name is greater than or equal to 1
+my_variable_name <= 1			//true if my_variable_name is less than or equal to 1
+my_variable_name == 1			//true if my_variable_name is equal to 1
+my_variable_name != 1			//true if my_variable_name is not equal to 1
+
+//Math:							//These will do math but will not change 'my_variable_name'
+my_variable_name + 1			//addition
+my_variable_name - 1			//subtraction
+my_variable_name * 1			//multiplication
+my_variable_name / 1			//division
+Math.pow(my_variable_name, 2)	//exponent i.e. 'my_variable_name squared'
+Math.sqrt(1)					//square root
+
