@@ -828,7 +828,7 @@ new Job({name: "Cal",
     ]})
 
 
-function setKeepPositionBase(){
+function setKeepPosition(){
 	var retCMD = []
     retCMD.push(make_ins("w", DIFF_FORCE_SPEED_FACTOR_ANGLE, 0))
     retCMD.push(make_ins("w", DIFF_FORCE_SPEED_FACTOR_ROT, 0))
